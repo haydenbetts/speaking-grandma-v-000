@@ -13,7 +13,14 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  if phrase.match(/[a-z])
+  if phrase.match(/[a-z]/)
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  else
+    puts "NO, NOT SINCE 1938!"
+  end
+
 end
 
 # we want to capture all alpha numeric characters
