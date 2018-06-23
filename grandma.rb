@@ -13,5 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  
+  if phrase.
 end
+
+# we want to capture all alpha numeric characters
+# and then make sure that they are all uppercase
+
+# use t
+#
